@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body >
+<body>
 
     <!-- this is header area -->
     <header class="bg-[#264653] px-4 pb-6">
@@ -70,15 +70,19 @@
 
     <main>
 
-        <section>
+        <!-- feature bike section -->
+        <section class="featured_bike">
+            <!-- section head for all section -->
             <div class="section_head text-center mt-12">
-                <h2 class="font-bold text-xl 
+                <h2 class="font-bold text-2xl 
                 md:text-4xl 
                 lg:text-6xl
                 ">Fetured Bikes In This Year</h2>
-                <p class="text-xs my-1 text-orange-500 md:text-lg">Best <span class=" border-b-2 border-orange-500">bike collec</span>tion</p>
+                <p class="text-xs my-1 text-orange-500 md:text-lg">Best <span class=" border-b-2 border-orange-500">bike
+                        collec</span>tion</p>
             </div>
 
+            <!-- featured bike section -->
             <div class="bike_showcase px-4 mt-16
             md:grid md:grid-cols-2 md:gap-8
              lg:grid-cols-4  
@@ -88,6 +92,65 @@
                 <img src="images/slider/bike2.png" alt="bike img" class="mt-16">
                 <img src="images/slider/bike3.png" alt="bike img" class="mt-16">
                 <img src="images/slider/bike4.png" alt="bike img" class="mt-16">
+
+            </div>
+
+        </section>
+
+        <!-- news section -->
+        <section class="latest_news mx-4">
+
+            <!-- secction head for all section -->
+            <div class="section_head text-center mt-12">
+                <h2 class="font-bold text-2xl 
+                md:text-4xl 
+                lg:text-6xl
+                ">Latest News</h2>
+
+            </div>
+
+            <!-- letest news main container -->
+            <div class="news_container_main mt-16
+            md:grid md:grid-cols-2 md:gap-8
+            lg:grid-cols-3
+
+
+            ">
+
+                <!-- news card -->
+                <div class="card border-solid border-2 border-gray-300 p-2 rounded-md">
+                    <div>
+                        <img src="images/others/latest1.png" alt="latest news picture" class="w-full">
+                    </div>
+                    <h3 class="font-bold text-xl my-4">Ducati XDIAVEL S-73</h3>
+                    <p class="text-[14px] text-gray-400 mb-5 w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.</p>
+                    <button class="bg-[#E76F51] px-4 py-2 rounded-md text-white mb-3">Read More</button>
+                </div>
+                
+                  <!-- news card -->
+                  <div class="card border-solid border-2 border-gray-300 p-2 my-4 md:my-0 rounded-md">
+                    <div>
+                        <img src="images/others/latest2.png" alt="latest news picture" class="w-full">
+                    </div>
+                    <h3 class="font-bold text-xl my-4">Ducati XDIAVEL S-73</h3>
+                    <p class="text-[14px] text-gray-400 mb-5 w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.</p>
+                    <button class="border-solid border-2 border-[#E76F51] px-4 py-2 rounded-md text-[#E76F51] mb-3">Read More</button>
+                </div>
+
+                  <!-- news card -->
+                  <div class="card border-solid border-2 border-gray-300 p-2 rounded-md">
+                    <div>
+                        <img src="images/others/latest3.png" alt="latest news picture" class="w-full">
+                    </div>
+                    <h3 class="font-bold text-xl my-4">Ducati XDIAVEL S-73</h3>
+                    <p class="text-[14px] text-gray-400 mb-5 w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                        nisi lectus at.</p>
+                    <button class="border-solid border-2 border-[#E76F51] px-4 py-2 rounded-md text-[#E76F51] mb-3">Read More</button>
+                </div>
+
+
 
             </div>
 
